@@ -11,8 +11,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CutomerDto {
+public class CustomerDto {
 
 	private UUID id;
-	private String name;
+	private String firstName;
+	private String lastName;
+	private String Address;
+	private String eMail;
 }
